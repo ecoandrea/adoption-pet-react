@@ -1,0 +1,237 @@
+2025-04-18 21:41:55 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 21:43:18 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 21:45:41 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 21:45:42 info: Modelos sincronizados correctamente.
+2025-04-18 22:32:16 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 22:32:16 info: Modelos sincronizados correctamente.
+2025-04-18 22:39:57 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 22:39:57 info: Modelos sincronizados correctamente.
+2025-04-18 22:43:37 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 22:43:37 info: Modelos sincronizados correctamente.
+2025-04-18 23:22:42 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 23:22:42 info: Modelos sincronizados correctamente.
+2025-04-18 23:23:31 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 23:23:31 info: Modelos sincronizados correctamente.
+2025-04-18 23:26:46 info: Conexión a la base de datos establecida correctamente.
+2025-04-18 23:26:46 info: Modelos sincronizados correctamente.
+2025-04-19 22:43:13 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 22:43:13 info: Modelos sincronizados correctamente.
+2025-04-19 22:44:02 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 22:44:02 info: Modelos sincronizados correctamente.
+2025-04-19 22:49:51 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 22:49:51 info: Modelos sincronizados correctamente.
+2025-04-20 21:11:58 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 21:11:58 info: Modelos sincronizados correctamente.
+2025-04-20 21:16:04 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:19:35 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:19:37 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:19:40 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:19:46 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:27:11 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:28:27 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:30:01 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:30:03 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:32:47 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 21:32:47 info: Modelos sincronizados correctamente.
+2025-04-20 21:32:50 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:35:40 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 21:35:40 info: Modelos sincronizados correctamente.
+2025-04-20 21:35:50 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:36:56 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:37:57 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:38:00 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:38:02 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:38:02 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:38:03 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:38:03 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:38:03 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:38:04 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:57:09 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 21:57:09 info: Modelos sincronizados correctamente.
+2025-04-20 21:57:12 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:57:14 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:57:15 error: Ha ocurrido un error en createUser Controller apellido is not defined
+2025-04-20 21:59:22 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 21:59:22 info: Modelos sincronizados correctamente.
+2025-04-20 21:59:26 error: Ha ocurrido un error en createUser Controller La contraseña debe contener 9 caracteres, 4 letras, 4 números, un caracter especial y como mínimo una mayuscula, una minúscula
+2025-04-20 22:00:09 error: Ha ocurrido un error en createUser Controller telefono is not defined
+2025-04-20 22:00:20 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 22:00:20 info: Modelos sincronizados correctamente.
+2025-04-20 22:00:23 error: Ha ocurrido un error en createUser Controller sendEmail is not defined
+2025-04-20 22:03:36 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 22:03:36 info: Modelos sincronizados correctamente.
+2025-04-20 22:03:39 error: Ha ocurrido un error en createUser Controller Ya existe un usuario registrado con ese Email
+2025-04-20 22:03:55 error: Ha ocurrido un error en createUser Controller Ya existe un usuario registrado con ese Email
+2025-04-20 22:04:08 error: Ha ocurrido un error en createUser Controller Ya existe un usuario registrado con ese Email
+2025-04-20 22:24:48 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 22:24:48 info: Modelos sincronizados correctamente.
+2025-04-20 22:28:32 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 22:28:32 info: Modelos sincronizados correctamente.
+2025-04-20 22:29:16 info: Conexión a la base de datos establecida correctamente.
+2025-04-20 22:29:16 info: Modelos sincronizados correctamente.
+2025-04-21 00:07:35 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:07:35 info: Modelos sincronizados correctamente.
+2025-04-21 00:09:42 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:09:42 info: Modelos sincronizados correctamente.
+2025-04-21 00:09:48 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:09:48 info: Modelos sincronizados correctamente.
+2025-04-21 00:10:26 error: Ha ocurrido un error en issuetoken Middleware data and hash arguments required
+2025-04-21 00:12:59 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:12:59 info: Modelos sincronizados correctamente.
+2025-04-21 00:15:23 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:15:23 info: Modelos sincronizados correctamente.
+2025-04-21 00:15:29 error: Ha ocurrido un error en issuetoken Middleware secretOrPrivateKey must have a value
+2025-04-21 00:15:31 error: Ha ocurrido un error en issuetoken Middleware secretOrPrivateKey must have a value
+2025-04-21 00:15:58 error: Ha ocurrido un error en issuetoken Middleware secretOrPrivateKey must have a value
+2025-04-21 00:16:24 error: Ha ocurrido un error en issuetoken Middleware secretOrPrivateKey must have a value
+2025-04-21 00:21:17 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:21:17 info: Modelos sincronizados correctamente.
+2025-04-21 00:21:22 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:21:22 info: Modelos sincronizados correctamente.
+2025-04-21 00:21:28 error: Ha ocurrido un error en issuetoken Middleware secretOrPrivateKey must have a value
+2025-04-21 00:21:30 error: Ha ocurrido un error en issuetoken Middleware secretOrPrivateKey must have a value
+2025-04-21 00:22:19 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:22:19 info: Modelos sincronizados correctamente.
+2025-04-21 00:22:25 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:22:25 info: Modelos sincronizados correctamente.
+2025-04-21 00:22:56 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-04-21 00:49:38 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:49:38 info: Modelos sincronizados correctamente.
+2025-04-21 00:52:22 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:52:22 info: Modelos sincronizados correctamente.
+2025-04-21 00:53:46 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:53:46 info: Modelos sincronizados correctamente.
+2025-04-21 00:55:08 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 00:55:08 info: Modelos sincronizados correctamente.
+2025-04-21 09:44:38 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 09:44:38 info: Modelos sincronizados correctamente.
+2025-04-21 09:51:22 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 09:51:22 info: Modelos sincronizados correctamente.
+2025-04-21 09:58:37 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 09:58:37 info: Modelos sincronizados correctamente.
+2025-04-21 10:03:39 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 10:03:40 info: Modelos sincronizados correctamente.
+2025-04-21 10:10:34 error: Ha ocurrido un error en createUser Controller sendEmail is not defined
+2025-04-21 11:03:39 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 11:03:39 info: Modelos sincronizados correctamente.
+2025-04-21 11:03:51 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 11:03:51 info: Modelos sincronizados correctamente.
+2025-04-21 11:08:24 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 11:08:24 info: Modelos sincronizados correctamente.
+2025-04-21 11:15:21 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 11:15:21 info: Modelos sincronizados correctamente.
+2025-04-21 11:23:04 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 11:23:04 info: Modelos sincronizados correctamente.
+2025-04-21 11:44:43 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 11:44:44 info: Modelos sincronizados correctamente.
+2025-04-21 15:35:34 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 15:35:34 info: Modelos sincronizados correctamente.
+2025-04-21 15:35:47 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 15:35:47 info: Modelos sincronizados correctamente.
+2025-04-21 15:37:11 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 15:37:11 info: Modelos sincronizados correctamente.
+2025-04-21 19:24:02 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 19:24:02 info: Modelos sincronizados correctamente.
+2025-04-21 19:25:11 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 19:25:11 info: Modelos sincronizados correctamente.
+2025-04-21 19:29:27 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 19:29:27 info: Modelos sincronizados correctamente.
+2025-04-21 20:40:12 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 20:40:12 info: Modelos sincronizados correctamente.
+2025-04-21 20:50:08 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 20:50:08 info: Modelos sincronizados correctamente.
+2025-04-21 20:50:12 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 20:50:12 info: Modelos sincronizados correctamente.
+2025-04-21 20:54:26 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 20:54:26 info: Modelos sincronizados correctamente.
+2025-04-21 20:54:52 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 20:54:52 info: Modelos sincronizados correctamente.
+2025-04-21 21:00:18 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 21:00:18 info: Modelos sincronizados correctamente.
+2025-04-21 21:46:53 info: Conexión a la base de datos establecida correctamente.
+2025-04-21 21:46:53 info: Modelos sincronizados correctamente.
+2025-04-22 00:22:28 info: Conexión a la base de datos establecida correctamente.
+2025-04-22 00:22:28 info: Modelos sincronizados correctamente.
+2025-04-23 14:33:07 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 14:33:07 info: Modelos sincronizados correctamente.
+2025-04-23 14:35:38 error: Ha ocurrido un error en forgotPassword Controller username is not defined
+2025-04-23 14:38:50 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 14:38:50 info: Modelos sincronizados correctamente.
+2025-04-23 14:39:25 error: Ha ocurrido un error en forgotPassword Controller username is not defined
+2025-04-23 14:42:19 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 14:42:19 info: Modelos sincronizados correctamente.
+2025-04-23 14:53:17 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 14:53:17 info: Modelos sincronizados correctamente.
+2025-04-23 14:54:50 error: Ha ocurrido un error en authMiddleware Middleware El token es inválido o ha caducado
+2025-04-23 14:55:31 error: Ha ocurrido un error en authMiddleware Middleware El token es inválido o ha caducado
+2025-04-23 14:55:58 error: Ha ocurrido un error en authMiddleware Middleware El token es inválido o ha caducado
+2025-04-23 15:42:34 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 15:42:34 info: Modelos sincronizados correctamente.
+2025-04-23 15:46:58 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 15:46:58 info: Modelos sincronizados correctamente.
+2025-04-23 15:49:34 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 15:49:34 info: Modelos sincronizados correctamente.
+2025-04-23 15:50:59 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 15:50:59 info: Modelos sincronizados correctamente.
+2025-04-23 16:01:51 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 16:01:51 info: Modelos sincronizados correctamente.
+2025-04-23 16:17:12 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 16:17:12 info: Modelos sincronizados correctamente.
+2025-04-23 16:28:08 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 16:28:08 info: Modelos sincronizados correctamente.
+2025-04-23 18:47:40 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 18:47:40 info: Modelos sincronizados correctamente.
+2025-04-23 18:48:19 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 18:48:19 info: Modelos sincronizados correctamente.
+2025-04-23 18:48:58 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 18:48:58 info: Modelos sincronizados correctamente.
+2025-04-23 19:16:14 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:16:14 info: Modelos sincronizados correctamente.
+2025-04-23 19:17:26 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:17:26 info: Modelos sincronizados correctamente.
+2025-04-23 19:17:56 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:17:56 info: Modelos sincronizados correctamente.
+2025-04-23 19:19:17 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:19:17 info: Modelos sincronizados correctamente.
+2025-04-23 19:27:17 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:27:17 info: Modelos sincronizados correctamente.
+2025-04-23 19:28:24 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:28:24 info: Modelos sincronizados correctamente.
+2025-04-23 19:41:58 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:41:58 info: Modelos sincronizados correctamente.
+2025-04-23 19:42:57 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:42:57 info: Modelos sincronizados correctamente.
+2025-04-23 19:43:44 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:43:44 info: Modelos sincronizados correctamente.
+2025-04-23 19:44:29 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:44:29 info: Modelos sincronizados correctamente.
+2025-04-23 19:45:14 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:45:14 info: Modelos sincronizados correctamente.
+2025-04-23 19:48:22 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:48:22 info: Modelos sincronizados correctamente.
+2025-04-23 19:59:25 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 19:59:25 info: Modelos sincronizados correctamente.
+2025-04-23 20:00:28 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:00:28 info: Modelos sincronizados correctamente.
+2025-04-23 20:13:57 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:13:57 info: Modelos sincronizados correctamente.
+2025-04-23 20:17:31 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:17:31 info: Modelos sincronizados correctamente.
+2025-04-23 20:19:14 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:19:14 info: Modelos sincronizados correctamente.
+2025-04-23 20:24:49 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:24:49 info: Modelos sincronizados correctamente.
+2025-04-23 20:26:14 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:26:14 info: Modelos sincronizados correctamente.
+2025-04-23 20:27:27 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:27:27 info: Modelos sincronizados correctamente.
+2025-04-23 20:30:22 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:30:22 info: Modelos sincronizados correctamente.
+2025-04-23 20:32:35 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:32:35 info: Modelos sincronizados correctamente.
+2025-04-23 20:35:20 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:35:20 info: Modelos sincronizados correctamente.
+2025-04-23 20:43:14 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:43:14 info: Modelos sincronizados correctamente.
+2025-04-23 20:43:35 info: Conexión a la base de datos establecida correctamente.
+2025-04-23 20:43:35 info: Modelos sincronizados correctamente.

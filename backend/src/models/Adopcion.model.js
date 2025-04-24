@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
-import { sequelize } from '../database/database.js';
+import { dbConfig } from '../config/db.config.js';
 
-export const Adopcion = sequelize.define('Adopcion', {
+export const Adopcion = dbConfig.define('Adopcion', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -25,6 +25,8 @@ export const Adopcion = sequelize.define('Adopcion', {
         allowNull: false,
     },
 }, {
+
     tableName: 'adopciones',
     timestamps: true,
+    paranoid: true
 });

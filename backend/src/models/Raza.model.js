@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
-import { sequelize } from '../database/database.js';
+import { dbConfig } from '../config/db.config.js';
 
-export const Raza = sequelize.define('Raza', {
+export const Raza = dbConfig.define('Raza', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,

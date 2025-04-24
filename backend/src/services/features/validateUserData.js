@@ -1,14 +1,21 @@
-import { ValidationError } from "../errors/TypeError.js";
-import { isValidName, isValidEmail, isValidPassword } from "../utils/validators.js";
-import { Usuario } from "../models/Usuario.model.js";
 
-export const validateUserData = (nombre, email, password) => {
+import { isValidName, isValidEmail, isValidPassword, isValidPhone } from "../../utils/validators.js";
+import { Usuario } from "../../models/Usuario.model.js";
+import { ValidationError } from "../../errors/typeErrors.js";
+
+export const validateUserData = (nombre, apellido, email, password, telefono) => {
 
     if (!isValidName(nombre)) {
         throw new ValidationError("El Nombre Proporcionado no cumple con el formato", {
             field: "Nombre",
         });
     }
+        if (!isValidName(apellido)) {
+            throw new ValidationError("El Apellido Proporcionado no cumple con el formato", {
+                field: "Apellido",
+            });
+        }
+    
 
     if (!isValidEmail(email)) {
         throw new ValidationError("El Email Proporcionado no es válido", {
@@ -21,7 +28,15 @@ export const validateUserData = (nombre, email, password) => {
             field: "Password",
         });
     }
+
+    if (!isValidPhone(telefono)) {
+        throw new ValidationError("El Teléfono Proporcionado no cumple con el formato", {
+            field: "Teléfono",
+        });
+    }
 };
+
+
 
 export const userIfExist = async (email) => {
     

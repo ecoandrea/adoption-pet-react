@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
-import { sequelize } from '../database/database.js';
+import { dbConfig } from '../config/db.config.js';
 
-export const Especie = sequelize.define('Especie', {
+export const Especie = dbConfig.define('Especie', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -13,6 +13,7 @@ export const Especie = sequelize.define('Especie', {
     },
     
 }, {
+  
     tableName: 'especies',
     timestamps: true,
 });

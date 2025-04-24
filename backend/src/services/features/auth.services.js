@@ -1,8 +1,9 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { InvalidTokenError } from "../errors/typeErrors.js";
+import { InvalidTokenError } from "../../errors/TypeErrors.js";
 
-const secret = process.env.SECRET;
+
+const secret = process.env.SECRET_KEY;
 
 export const hashPassword = (password) => {
     const saltRounds = 10;

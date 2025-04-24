@@ -15,3 +15,4 @@ export const serverInit = async(app) => {
         console.error('Error al inicializar el servidor', error);
     }
 };
+

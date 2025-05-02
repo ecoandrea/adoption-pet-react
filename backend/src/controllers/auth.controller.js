@@ -64,6 +64,8 @@ export const recoveryPassword = async (req, res, next) => {
 
         const user = await Usuario.findOne({ where: { email } });
 
+        console.log(user)
+        
         if (!user) {
             return res.status(404).json({
                 code: 404,

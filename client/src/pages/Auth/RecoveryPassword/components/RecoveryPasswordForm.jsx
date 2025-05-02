@@ -11,6 +11,7 @@ export const RecoveryPasswordForm = () => {
        try {
         const myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
+        
         const requestOptions = {
             method: "POST",
             headers: myHeaders,

@@ -2,63 +2,61 @@ import nodemailer from "nodemailer";
 import dotenv from 'dotenv';
 import { crearTemplateHtml } from "../../utils/templatesEmail.js";
 
+// Cargar variables de entorno
 dotenv.config();
 
+// Crear el transporter con las variables de entorno
 const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
-    port: parseInt(process.env.SMTP_PORT),
-    secure: false, // SIEMPRE false para puerto 587
-    requireTLS: true, // importante para Gmail
+    port: process.env.SMTP_PORT,
+    secure: process.env.SMTP_SECURE === 'true',
     auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
     },
 });
 
-// 🔍 VERIFICACIÓN DEL TRANSPORTER
+// Verificar la conexión SMTP (esto va aquí)
 transporter.verify((error, success) => {
     if (error) {
-        console.error("❌ Verificación SMTP falló:", error);
+        console.error('Error de conexión SMTP:', error);
     } else {
-        console.log("✅ Transporter SMTP listo para enviar correos.");
+        console.log('Conexión SMTP exitosa ✅');
     }
 });
 
 
-export const createMailOptions = (email, asunto, token, username) => {
-    let asuntoCorreo = "";
 
-    switch (asunto) {
-        case "registro":
-            asuntoCorreo = "Bienvenido a Proyecto GDP";
-            break;
-        case "recuperarPassword":
-            asuntoCorreo = "Recuperación de Contraseña";
-            break;
-        case "nuevaValidacion":
-            asuntoCorreo = "Validación de Cuenta";
-            break;
-        default:
-            asuntoCorreo = "Notificación Proyecto GDP";
-            break;
+// Crear las opciones del correo
+export const createMailOptions = (email, asunto, token, username) => {
+    let asuntoCorreo = null;
+
+    if (asunto === "registro") {
+        asuntoCorreo = "Bienvenido a Pethome ";
+    } else {
+        asuntoCorreo = "Recuperación Contraseña";
     }
 
-    return {
-        from: `"Refugio de Animales React" <${process.env.EMAIL_USER}>`,
-        to: email,
+    const mailOptions = {
+        from: "Backspace Support",
+        to: `${email}`,
         subject: asuntoCorreo,
-        html: crearTemplateHtml(email, asunto, token, username),
+        html: crearTemplateHtml(email, asunto, token, username)
     };
+
+    return mailOptions;
 };
 
+// Función para enviar el correo
 export const sendEmail = (email, asunto, username, token = null) => {
     const mailOptions = createMailOptions(email, asunto, token, username);
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-            console.error("❌ Error al enviar el correo:", error);
+            console.log("Error al enviar el correo:", error);
         } else {
-            console.log("📬 Correo enviado correctamente:", info.response);
+            console.log("Correo enviado:", info.response);
         }
     });
 };
+

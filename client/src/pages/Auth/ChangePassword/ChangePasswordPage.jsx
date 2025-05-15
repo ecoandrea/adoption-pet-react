@@ -1,10 +1,8 @@
-import ChangePasswordForm from "./components/ChangePasswordForm"
 
+import { ChangePasswordForm } from './components/ChangePasswordForm'
 
-const ChangePasswordPage = () => {
+export const ChangePasswordPage = () => {
   return (
-  <ChangePasswordForm />
+    <ChangePasswordForm />
   )
 }
-
-export default ChangePasswordPage

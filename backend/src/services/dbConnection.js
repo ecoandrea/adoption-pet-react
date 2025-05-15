@@ -15,7 +15,7 @@ export const dbConnect = async () => {
         // Sincroniza la base de datos (sin cambios en las tablas)
         logger.info("Conexión a la base de datos establecida correctamente.");
         console.log("Conexión a la base de datos establecida correctamente.");
-        await dbConfig.sync({ force: false, alter: false });
+        await dbConfig.sync({ force: false, alter: true });
         logger.info("Modelos sincronizados correctamente.");
     } catch (error) {
         console.error('No pudimos conectarnos a la DB', error);

@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { useSnackbar } from "notistack";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { login } from "../../../../store/authSlice";
 
 export const LoginForm = () => {
     const { enqueueSnackbar } = useSnackbar();
+    const dispatch = useDispatch()
     const [loginForm, setLoginForm] = useState({
         email: "",
         password: "",
@@ -18,27 +21,21 @@ export const LoginForm = () => {
         e.preventDefault();
         try {
             const url = "http://localhost:3000/api/v1/auth/login";
-
-            const formData = new FormData();
-            formData.append("email", loginForm.email);
-            formData.append("password", loginForm.password);
+            const formData = new FormData()
+            formData.append("email", loginForm.email)
+            formData.append("password", loginForm.password)
 
             const requestOptions = {
-            method: "POST",
-            body: formData,
-
-    }
-
+                method: "POST",
+                body: formData
+            }
             const response = await fetch(url, requestOptions);
-            const data = await response.json();
+            const data = await response.json()
 
-            
 
             if (data.code === 200) {
                 enqueueSnackbar(data.message, { variant: "success" });
-                localStorage.setItem("token", data.token);
-                localStorage.setItem("usuario", JSON.stringify(data.usuario));
-                location.href = "/micuenta";
+                dispatch(login(data.token))
             } else {
                 enqueueSnackbar(data.message, { variant: "error" });
             }

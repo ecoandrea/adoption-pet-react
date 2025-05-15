@@ -512,3 +512,71 @@
 2025-05-01 20:23:31 info: Modelos sincronizados correctamente.
 2025-05-01 21:17:41 info: Conexión a la base de datos establecida correctamente.
 2025-05-01 21:17:41 info: Modelos sincronizados correctamente.
+2025-05-13 17:21:02 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 17:21:02 info: Modelos sincronizados correctamente.
+2025-05-13 17:42:11 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 17:42:11 info: Modelos sincronizados correctamente.
+2025-05-13 17:43:19 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 17:43:19 info: Modelos sincronizados correctamente.
+2025-05-13 17:43:26 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 17:43:26 info: Modelos sincronizados correctamente.
+2025-05-13 17:54:29 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 17:54:29 info: Modelos sincronizados correctamente.
+2025-05-13 19:36:47 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 19:36:47 info: Modelos sincronizados correctamente.
+2025-05-13 19:36:51 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 19:36:51 info: Modelos sincronizados correctamente.
+2025-05-13 19:37:12 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 19:37:12 info: Modelos sincronizados correctamente.
+2025-05-13 19:42:46 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 19:42:47 info: Modelos sincronizados correctamente.
+2025-05-13 20:06:24 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 20:06:24 info: Modelos sincronizados correctamente.
+2025-05-13 20:06:28 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 20:06:28 info: Modelos sincronizados correctamente.
+2025-05-13 20:06:56 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 20:06:56 info: Modelos sincronizados correctamente.
+2025-05-13 20:07:04 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 20:07:04 info: Modelos sincronizados correctamente.
+2025-05-13 20:08:26 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 20:08:27 info: Modelos sincronizados correctamente.
+2025-05-13 20:10:30 info: Conexión a la base de datos establecida correctamente.
+2025-05-13 20:10:31 info: Modelos sincronizados correctamente.
+2025-05-14 11:58:30 info: Conexión a la base de datos establecida correctamente.
+2025-05-14 11:58:30 info: Modelos sincronizados correctamente.
+2025-05-14 12:07:55 info: Conexión a la base de datos establecida correctamente.
+2025-05-14 12:07:55 info: Modelos sincronizados correctamente.
+2025-05-14 12:12:15 info: Conexión a la base de datos establecida correctamente.
+2025-05-14 12:12:15 info: Modelos sincronizados correctamente.
+2025-05-14 12:28:56 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-14 12:29:12 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-14 12:29:37 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-14 12:30:29 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-14 12:30:39 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-14 12:34:20 error: Ha ocurrido un error en createUser Controller El Teléfono Proporcionado no cumple con el formato
+2025-05-14 12:34:33 error: Ha ocurrido un error en createUser Controller El Teléfono Proporcionado no cumple con el formato
+2025-05-14 12:39:00 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-14 12:39:06 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-14 13:56:24 error: Ha ocurrido un error en createUser Controller El Teléfono Proporcionado no cumple con el formato
+2025-05-14 13:57:59 info: Conexión a la base de datos establecida correctamente.
+2025-05-14 13:58:00 info: Modelos sincronizados correctamente.
+2025-05-14 17:22:39 info: Conexión a la base de datos establecida correctamente.
+2025-05-14 17:22:39 info: Modelos sincronizados correctamente.
+2025-05-14 20:56:08 info: Conexión a la base de datos establecida correctamente.
+2025-05-14 20:56:08 info: Modelos sincronizados correctamente.
+2025-05-15 00:11:56 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:11:56 info: Modelos sincronizados correctamente.
+2025-05-15 00:15:06 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:15:06 info: Modelos sincronizados correctamente.
+2025-05-15 00:18:12 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:18:13 info: Modelos sincronizados correctamente.
+2025-05-15 00:18:49 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:18:49 info: Modelos sincronizados correctamente.
+2025-05-15 00:25:37 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:25:37 info: Modelos sincronizados correctamente.
+2025-05-15 00:26:24 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:26:24 info: Modelos sincronizados correctamente.
+2025-05-15 00:32:38 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:32:38 info: Modelos sincronizados correctamente.
+2025-05-15 00:33:04 info: Conexión a la base de datos establecida correctamente.
+2025-05-15 00:33:04 info: Modelos sincronizados correctamente.

@@ -1,12 +1,17 @@
 import { Router } from "express";
-import { getAllUsers } from "../controllers/admin.controller.js";
+import { changeStateUser, getAllusers, getUserDataById, updateUser } from "../controllers/admin.controller.js";
+
 
 
 
 
 const router = Router()
 
-router.get("/", getAllUsers)
+router.get("/", getAllusers)
+router.get("/get-user/:id", getUserDataById)
+router.put("/cambiar-estado", changeStateUser)
+router.put("/update-user", updateUser)
+
 
 
 

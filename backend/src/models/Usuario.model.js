@@ -32,6 +32,7 @@ export const Usuario = dbConfig.define('Usuario', {
         type: DataTypes.BOOLEAN,
         allowNull: false,
         defaultValue: false,
+        deletedAt: 'destroyTime'
     },
     
 }, {

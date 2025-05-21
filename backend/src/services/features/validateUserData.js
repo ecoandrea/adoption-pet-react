@@ -55,7 +55,7 @@ export const userIfExist = async (email) => {
     }
 }
 
-export const userNotExist = async (email) => {
+export const userNotExist = async (email, id) => {
     
     if (email) {
         const userByEmail = await Usuario.findOne({
@@ -64,6 +64,17 @@ export const userNotExist = async (email) => {
         if (!userByEmail) {
             throw new ValidationError("Usuario no encontrado", {
                 field: "email",
+            });
+        }
+    }
+
+     if (id) {
+        const userById = await Usuario.findOne({
+            where: { id }
+        });
+        if (!userById) {
+            throw new ValidationError("Usuario no encontrado", {
+                field: "id",
             });
         }
     }

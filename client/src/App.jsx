@@ -11,6 +11,7 @@ import { setAuthFromStorage } from "./store/authSlice";
 import { useDispatch } from "react-redux"
 import { useEffect } from "react";
 import { DetalleAnimal } from "./pages/DetalleAnimal/DetalleAnimal";
+import { MyAccountPage } from "./pages/MyAccount/MyAccountPage";
 
 
 export const App = () => {
@@ -32,6 +33,7 @@ export const App = () => {
                 <Route path="/admin/usuarios" element={<UserAdminPanelPage />} />
                 <Route path="/admin/animales" element={<AnimalAdminPanelPage />} />
                 <Route path="/detalle-animal/:id" element={<DetalleAnimal />} />
+                <Route path="/mi-cuenta/:id" element={<MyAccountPage />} />
             </Routes>
         </BrowserRouter>
     );

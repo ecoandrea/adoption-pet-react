@@ -1,9 +1,9 @@
 
-export const CreateUserButton = ({ setIsOpen, setModo}) => {
+export const CreateUserButton = ({ setIsOpenUserModal, setModo}) => {
 
     const handleCreate = () =>{
         try {
-            setIsOpen(true)
+            setIsOpenUserModal(true)
             setModo("crear")
         } catch (error) {
             console.log(error);

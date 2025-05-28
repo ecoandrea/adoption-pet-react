@@ -54,3 +54,8 @@
 2025-05-14 13:56:24 error: Ha ocurrido un error en createUser Controller El Teléfono Proporcionado no cumple con el formato
 2025-05-20 12:52:29 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
 2025-05-20 12:52:51 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-21 10:46:53 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-21 10:46:57 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-22 18:07:42 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-24 23:10:42 error: Ha ocurrido un error en issuetoken Middleware Email o contraseña incorrectos
+2025-05-28 11:06:21 error: Ha ocurrido un error en authMiddleware Middleware Token no proporcionado

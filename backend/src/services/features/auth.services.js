@@ -3,6 +3,9 @@ import jwt from "jsonwebtoken";
 import { InvalidTokenError } from "../../errors/TypeErrors.js";
 
 
+
+
+
 const secret = process.env.SECRET_KEY;
 
 export const hashPassword = (password) => {

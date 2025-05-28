@@ -36,7 +36,7 @@ app.use("/public", express.static(__dirname + "/public"));
 app.use("/api/v1/auth", authRoutes)
 app.use("/api/v1/admin", adminRoutes) 
 app.use("/api/v1/animales", animalesRoutes) //para que funcione el formdata de animales, se puede cambiar el nombre de la ruta si se quiere
-app.use("api/v1/adopciones", adopcionesRoutes)
+app.use("/api/v1/adopciones", adopcionesRoutes)
 
 
 app.use(errorHandler);

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+
 import { CreateUserButton } from "./CreateUserButton";
 import { useSnackbar } from "notistack";
 import { FaEdit } from "react-icons/fa";
@@ -9,7 +9,7 @@ export const UserTable = ({ users, setUsers, setIsOpenUserModal, setModo, handle
     const { enqueueSnackbar } = useSnackbar();
 
 
-    const handleDelete = async(id) => {
+    const handleDelete = async (id) => {
         try {
 
             const requestOptions = {
@@ -19,7 +19,7 @@ export const UserTable = ({ users, setUsers, setIsOpenUserModal, setModo, handle
             const data = await response.json()
 
             if (data.code === 200) {
-            enqueueSnackbar(data.message, { variant: "success" });
+                enqueueSnackbar(data.message, { variant: "success" });
             } else {
                 enqueueSnackbar(data.message, { variant: "error" });
             }
@@ -28,9 +28,9 @@ export const UserTable = ({ users, setUsers, setIsOpenUserModal, setModo, handle
         }
     }
 
-     const handleChange = async(e, userID) => {
+    const handleChange = async (e, userID) => {
         const nuevoRol = e.target.value === "Administrador";
-    
+
         setUsers((prev) =>
             prev.map((user) =>
                 user.id === userID ? { ...user, rol: nuevoRol } : user
@@ -55,17 +55,17 @@ export const UserTable = ({ users, setUsers, setIsOpenUserModal, setModo, handle
             enqueueSnackbar(data.message, { variant: "error" });
         }
 
-        
+
     };
-    
+
 
     return (
         <div>
             <div className="w-[57%] flex justify-center">
-                <CreateUserButton setIsOpenUserModal={setIsOpenUserModal} setModo={setModo}/>
+                <CreateUserButton setIsOpenUserModal={setIsOpenUserModal} setModo={setModo} />
             </div>
             <div className="flex justify-center mt-5">
-                
+
                 <table className="w-[50%] divide-y divide-gray-200 shadow-md rounded-lg overflow-hidden">
                     <thead className="bg-gray-100">
                         <tr>
@@ -86,7 +86,7 @@ export const UserTable = ({ users, setUsers, setIsOpenUserModal, setModo, handle
 
                             <th className="px-6 py-3 items-center text-sm font-medium text-gray-600 uppercase tracking-wider">
                                 <div className="flex justify-center">
-                                    <MdDelete fill="#cd0805" className="text-xl"/>
+                                    <MdDelete fill="#cd0805" className="text-xl" />
                                 </div>
                             </th>
                         </tr>
@@ -114,7 +114,7 @@ export const UserTable = ({ users, setUsers, setIsOpenUserModal, setModo, handle
                                 <td className="px-6 py-4 text-sm text-gray-800">
                                     <div className="flex justify-center items-center min-h-full">
                                         <button className="px-4 py-2 bg-green-400 text-white rounded-md hover:bg-green-600 transition duration-200"
-                                        onClick={(e) => handleUpdate(user.id)}
+                                            onClick={(e) => handleUpdate(user.id)}
                                         >
                                             Modificar
                                         </button>
@@ -123,7 +123,7 @@ export const UserTable = ({ users, setUsers, setIsOpenUserModal, setModo, handle
 
                                 <td className="px-6 py-4 text-sm text-gray-800">
                                     <div className="flex justify-center items-center min-h-full">
-                                        <button className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition duration-200" 
+                                        <button className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition duration-200"
                                             onClick={() => handleDelete(user.id)}>
                                             Eliminar
                                         </button>

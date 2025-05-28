@@ -1,7 +1,7 @@
 
 import { isValidName, isValidEmail, isValidPassword, isValidPhone } from "../../utils/validators.js";
 import { Usuario } from "../../models/Usuario.model.js";
-import { ValidationError } from "../../errors/typeErrors.js";
+import { ValidationError } from "../../errors/TypeErrors.js";
 
 export const validateUserData = (nombre, apellido, email, password=null, telefono) => {
 
